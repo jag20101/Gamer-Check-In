@@ -1,5 +1,6 @@
 <?php
-		$username = $_GET["username"];
+		//$username = $_GET["username"];
+		$username = "furby559";
 		$user_xml = file_get_contents("http://www.steamcommunity.com/id/" . $username . "/?xml=1");
 
 		$xml = simplexml_load_string($user_xml);
