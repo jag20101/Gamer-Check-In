@@ -21,7 +21,7 @@ Musubi.ready(function(context) {
 $('#check-in').click(function(e){
 	var id = "tsaxjaguirre";
 	$.ajax({
-		  url: 'http://txjagtapp1.appspot.com/musubi/apps/steamcheck.php?username=' + id,
+		  url: 'http://jag20101.github.com/Gamer-Check-In/musubi/apps/steamcheck.php?username=' + id,
 		  type:'GET',
 		  success: function(mydata){
 		    alert(mydata);
